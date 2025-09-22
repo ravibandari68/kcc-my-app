@@ -77,3 +77,13 @@ docker stop myapp || true
 docker rm myapp || true
 aws ecr get-login-password --region us-east-1 | docker login ...
 docker run -d --name myapp -p 80:5000 <your-ecr-repo>:latest
+```
+
+
+### ⚙ Output
+
+<img width="1544" height="556" alt="Screenshot 2025-09-22 at 3 35 01 PM" src="https://github.com/user-attachments/assets/90b88d15-a7f4-4d2b-909b-62b3ebe72f15" />
+
+
+
+
